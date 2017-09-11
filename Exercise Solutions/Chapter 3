@@ -1,0 +1,55 @@
+1) The tag to start interpreting PHP code is <?php . . . ?>
+
+2) To comment in PHP use '//' for single line and /* . . .*/ for multiple lines
+
+3) In PHP ; must be at the end of every statement
+
+4) $ is used to preface all PHP variables
+
+5) Variables can store just about anything in php
+
+6) In PHP, like in other languages, '==' is used for testing while '=' is used
+   for assignment
+
+7) Hyphens are not allowed in variables names because if they were,
+   there would be no way to tell if a variable was being hyphenated,
+   or subtraction was being performed.
+
+8) Variables are case sensitive
+
+9) You cannot use spaces in variables
+
+10) Conversions are automatically handled in PHP
+
+11) You can force PHP to increment or decrement after or before checking
+    a logical. ++$variable will increment before checking, $variable++
+    will increment after checking.
+
+12) && and 'and' are usually interchangeable. In cases where precedence is
+    relevant, && will take priority
+
+13) A multiline assignment can be created by putting multiple lines between
+    " " and proceeding to type on multiple lines
+
+14) You cannot redefine a constant.
+
+15) You can escape just about anything in PHP by putting a \ before
+    whatever needs escaping
+
+16) echo does not allow evaluation within its statement, print does allow
+    evaluation
+
+17) The purpose of functions is to allow the creation of building blocks
+    to be reused throughout the code. This will make the code shorter
+    and speedier.
+
+18) You can make a variable available to the entire PHP program by
+    declaring the variable as global. This is done by putting 'global'
+    before declaring or assigning a variable.
+
+19) If you generate data within a function you can declare a global variable
+    within the function, but this is a poor way to make the variable available
+    outside of the function. A better way is to return the value at the end
+    of the function.
+
+20) The result of combining a string with a number will be a string.
